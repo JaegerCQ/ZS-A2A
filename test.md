@@ -18,6 +18,8 @@ The generated simulation data will be saved in **`simulated_sensor_signal.txt`**
 1. **`sensor_location_for_simulation.txt`**:   
 This file is a (1013, 3) two-dimensional array, representing 1013 detectors in the array. Each row contains the three-dimensional coordinates of a detector (in millimeters).  
 
+![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/ply_show.png)  
+
 2. **`phantom_for_simulation.ply`**:  
 This file contains 21,744 elements, representing the photoacoustic point sources in the simulated scene. Each element has 5 attributes:
    - The **first three attributes** are the three-dimensional coordinates of the point source (in meters).  
