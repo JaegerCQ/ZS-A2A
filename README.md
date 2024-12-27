@@ -8,7 +8,7 @@ Photoacoustic imaging (PAI) uniquely combines optical contrast with the penetrat
 ![image](https://github.com/JaegerCQ/ZS-A2A/blob/main/fig/pipeline.png)      
 _The overview of Zero-Shot Artifact2Artifact pipeline._       
 
-## Display of SlingBAG's results
+## Display of ZS-A2A's results
 
 ![image](https://github.com/JaegerCQ/ZS-A2A/blob/main/fig/liver.gif)        
 _3D PA reconstruction results of a rat liver._         
