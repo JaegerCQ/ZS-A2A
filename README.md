@@ -36,8 +36,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Coarse reconstruction
-Run `train_196_elements_coarse_recon.ipynb`.
+### Artifact removal slice-by-slice
+Run `PA_liver_phantom_3D.ipynb`. The processed slices will be stored in folder named "clean_liver_phantom".
 
 ## BibTeX
 
