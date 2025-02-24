@@ -17,6 +17,27 @@ _3D PA reconstruction results of a rat liver._
 ![image](https://github.com/JaegerCQ/ZS-A2A/blob/main/fig/kidney.gif)         
 _3D PA reconstruction results of a rat kidney._        
 
+## Installation
+
+```bash
+git clone https://github.com/JaegerCQ/ZS-A2A.git
+cd ZS-A2A
+```
+
+```bash
+conda create -n ZS_A2A python=3.10 -y
+conda activate ZS_A2A
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Coarse reconstruction
+Run `train_196_elements_coarse_recon.ipynb`.
 
 ## BibTeX
 
