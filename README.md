@@ -38,7 +38,8 @@ pip install -r requirements.txt
 
 ### Artifact removal slice-by-slice
 Run `PA_liver_phantom_3D.ipynb`. The processed slices will be stored in folder named "clean_liver_phantom".
-
+After artifact removal, please run `PA_liver_phantom_3D.ipynb` to convert the slices back to 3D PA volume 'ZS_A2A_liver_Phantom.mat'.
+If you have any questions, please be free to contact us.(email address: 2201112460@stu.pku.edu.cn)
 ## BibTeX
 
 ```
