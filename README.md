@@ -1,5 +1,6 @@
 # Zero-Shot Artifact2Artifact: Self-incentive artifact removal for photoacoustic imaging without any data
 
+[***Paper accepted in Photoacoustics***](https://doi.org/10.1016/j.pacs.2025.100723)   
 [***ArXiv paper***](https://arxiv.org/abs/2412.14873)
 
 Photoacoustic imaging (PAI) uniquely combines optical contrast with the penetration depth of ultrasound, making it critical for clinical applications. However, the quality of 3D PAI is often degraded due to reconstruction artifacts caused by the sparse and angle-limited configuration of detector arrays. Existing iterative or deep learning-based methods are either time-consuming or require large training datasets, significantly limiting their practical application. Here, we propose Zero-Shot Artifact2Artifact (ZS-A2A), a zero-shot self-supervised artifact removal method based on a super-lightweight network, which leverages the fact that reconstruction artifacts are sensitive to irregularities caused by data loss. By introducing random perturbations to the acquired PA data, it spontaneously generates subset data, which in turn stimulates the network to learn the artifact patterns in the reconstruction results, thus enabling zero-shot artifact removal. This approach requires neither training data nor prior knowledge of the artifacts, and is capable of artifact removal for 3D PAI. For maximum amplitude projection (MAP) images or slice images in 3D PAI acquired with arbitrarily sparse or angle-limited detector arrays, ZS-A2A employs a self-incentive strategy to complete artifact removal and improves the Contrast-to-Noise Ratio (CNR). We validated ZS-A2A in both simulation study and _in vivo_ animal experiments. Results demonstrate that ZS-A2A achieves state-of-the-art (SOTA) performance compared to existing zero-shot methods, and for the _in vivo_ rat liver, ZS-A2A improves CNR from 17.48 to 43.46 in just 8 seconds.     
@@ -43,12 +44,14 @@ If you have any questions, please be free to contact us. (email address: 2201112
 ## BibTeX
 
 ```
-@article{li2024zero,      
-  title={Zero-Shot Artifact2Artifact: Self-incentive artifact removal for photoacoustic imaging without any data},        
+@article{li2025zero,      
+  title={Zero-Shot Artifact2Artifact: Self-incentive artifact removal for photoacoustic imaging},       
   author={Li, Shuang and Chen, Qian and Kim, Chulhong and Choi, Seongwook and Wang, Yibing and Zhang, Yu and Li, Changhui},       
-  journal={arXiv preprint arXiv:2412.14873},       
-  year={2024}       
-}       
+  journal={Photoacoustics},       
+  pages={100723},     
+  year={2025},     
+  publisher={Elsevier}      
+}             
 ```
 ## Ackonwledgement
 
